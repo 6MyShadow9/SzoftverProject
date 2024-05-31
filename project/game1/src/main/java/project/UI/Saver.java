@@ -19,7 +19,7 @@ public class Saver {
         List<SavedData> existingData = new ArrayList<>();
 
         try {
-            File file = new File("game1/target/classes/Data/history.json");
+            File file = new File("project/target/classes/Data/history.json");
             Logger.debug("Search for existing file...");
             if (file.exists() && file.length() != 0) {
                 Logger.debug("Existing file found!");
@@ -37,7 +37,7 @@ public class Saver {
     private void saveData(ObjectMapper objectMapper, List<SavedData> data) throws Exception{
         Logger.debug("Data before saving: " + data);
         try {
-            File file = new File("game1/target/classes/Data/history.json");
+            File file = new File("project/target/classes/Data/history.json");
             List<SavedData> existingData = new ArrayList<>();
             if (file.exists() && file.length() != 0) {
                 existingData = objectMapper.readValue(file, new TypeReference<List<SavedData>>() {});
