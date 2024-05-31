@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.UI.HistoryController">
+   <children>
+      <TableView fx:id="table" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0">
+         <columns>
+            <TableColumn fx:id="Player1Name" prefWidth="160.0" text="Player 1 name" />
+            <TableColumn fx:id="Player2Name" minWidth="0.0" prefWidth="160.0" text="Player 2 name" />
+            <TableColumn fx:id="WinnerName" minWidth="0.0" prefWidth="160.0" text="Winner" />
+            <TableColumn fx:id="AmountOfMoves" minWidth="0.0" prefWidth="160.0" text="Amount of moves" />
+            <TableColumn fx:id="DateOfGame" minWidth="0.0" prefWidth="160.0" text="Date of game" />
+         </columns>
+      </TableView>
+      <Button fx:id="returnButton" layoutX="357.0" layoutY="600.0" mnemonicParsing="false" onAction="#handleReturn" prefHeight="50.0" prefWidth="87.0" text="RETURN" />
+   </children>
+</Pane>

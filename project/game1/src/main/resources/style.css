@@ -1,0 +1,13 @@
+.square {
+    -fx-border-color: black;
+    -fx-border-style: solid;
+}
+
+.square:hover {
+    -fx-background-color: lightgray;
+}
+
+.square.selected {
+    -fx-border-width: 5;
+    -fx-border-color: gray;
+}

@@ -1,0 +1,49 @@
+[ {
+  "dateOfGame" : [ 2024, 5, 31 ],
+  "amountOfMoves" : 6,
+  "player1Name" : "asdwqeq",
+  "player2Name" : "asd",
+  "winnerName" : "asdwqeq"
+}, {
+  "dateOfGame" : [ 2024, 5, 31 ],
+  "amountOfMoves" : 4,
+  "player1Name" : "próba 2",
+  "player2Name" : "test 2",
+  "winnerName" : "próba 2"
+}, {
+  "dateOfGame" : [ 2024, 5, 31 ],
+  "amountOfMoves" : 6,
+  "player1Name" : "próba 3",
+  "player2Name" : "test 3",
+  "winnerName" : "próba 3"
+}, {
+  "dateOfGame" : [ 2024, 5, 31 ],
+  "amountOfMoves" : 5,
+  "player1Name" : "még egy utolsó próba",
+  "player2Name" : "one last try",
+  "winnerName" : "még egy utolsó próba"
+}, {
+  "dateOfGame" : [ 2024, 5, 31 ],
+  "amountOfMoves" : 5,
+  "player1Name" : "player1111",
+  "player2Name" : "player 2222",
+  "winnerName" : "player1111"
+}, {
+  "dateOfGame" : [ 2024, 5, 31 ],
+  "amountOfMoves" : 5,
+  "player1Name" : "player 2222",
+  "player2Name" : "player1111",
+  "winnerName" : "player 2222"
+}, {
+  "dateOfGame" : [ 2024, 5, 31 ],
+  "amountOfMoves" : 5,
+  "player1Name" : "fewrqwr",
+  "player2Name" : "ahtrjh",
+  "winnerName" : "fewrqwr"
+}, {
+  "dateOfGame" : [ 2024, 5, 31 ],
+  "amountOfMoves" : 4,
+  "player1Name" : "asdqwe",
+  "player2Name" : "asdfgwerqwr",
+  "winnerName" : "asdqwe"
+} ]

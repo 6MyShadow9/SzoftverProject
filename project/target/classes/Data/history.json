@@ -1,0 +1,19 @@
+[ {
+  "player1Name" : "második teszt",
+  "winnerName" : "második teszt",
+  "player2Name" : "second test",
+  "amountOfMoves" : 4,
+  "dateOfGame" : [ 2024, 5, 31 ]
+}, {
+  "player1Name" : "abc",
+  "winnerName" : "abc",
+  "player2Name" : "cba",
+  "amountOfMoves" : 4,
+  "dateOfGame" : [ 2024, 5, 31 ]
+}, {
+  "player1Name" : "cba",
+  "winnerName" : "cba",
+  "player2Name" : "abc",
+  "amountOfMoves" : 4,
+  "dateOfGame" : [ 2024, 5, 31 ]
+} ]
